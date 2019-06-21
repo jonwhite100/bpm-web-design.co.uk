@@ -1,0 +1,76 @@
+//Font sizes
+p {
+    font-size: $font-size-base * 0.85;
+    line-height: 1.4;
+    margin-bottom: 1.8rem;
+
+    @include media-breakpoint-up(sm) {
+        font-size: $font-size-base * 1.25;
+    }
+
+    .about & {
+        color: $gray-700;
+    }
+
+    .recent-history &,
+    .previous-history & {
+        color: $white;
+    }
+}
+
+h1{
+	font-size: $h1-font-size * 2.1;
+    word-wrap: break-word;
+
+    .welcome & {
+        text-align: right;
+        text-transform: uppercase;
+        color: $white;
+
+        span {
+            color: $primary;
+        }
+
+        small {
+            display: block;
+            margin-top: 3rem;
+            text-transform: none;
+            font-size: $h2-font-size;
+            color: $white;
+        }
+    }
+
+    @include media-breakpoint-up(sm) {
+        // font-size: $h1-font-size * 2.1;
+    }
+}
+
+h1, h2, h3 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+
+    .about & {
+        color: $gray-700;
+    }
+
+    .recent-history & {
+        color: $gray-800;
+    }
+
+    .previous-history &  {
+        color: $white;
+    }
+}
+
+ul {
+    columns: 2;
+    font-size: 1.25rem;
+
+    @include media-breakpoint-up(md) {
+        columns: 3;
+    }
+
+    .about & {
+        color: $gray-700;;
+    }
+}
