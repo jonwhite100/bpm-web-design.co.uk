@@ -38,12 +38,12 @@
                         UI / Front End Developer
                     </small>
                 </h1>
-                <div class="contact-links">
+<!--                 <div class="contact-links">
                     <a href="https://www.linkedin.com/in/jens-nielsen-08770778" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
                     <a href="https://dribbble.com/jensnielsen" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a>
                     <a href="https://dk.pinterest.com/egofantastic/" target="_blank" class="pinterest"><i class="fa fa-pinterest"></i></a>
                     <a href="https://www.instagram.com/jensnielsen81/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -78,18 +78,6 @@
                             <li>PHP</li>
                         </ul>
                     </div>
-                    <!-- <div class="col-md-3">
-                        <div class="image-wrapper">
-                            <a href="/images/solar-panel1.jpg" data-title="Solar panels" data-toggle="lightbox" data-gallery="gallery-councils">
-                                <img src="/images/solar-panel1.jpg" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="image-wrapper">
-                            <a href="/images/solar-panel2.jpg" data-toggle="lightbox" data-gallery="gallery-councils">
-                                <img src="/images/solar-panel2.jpg" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                    </div> -->
                 </div>
       		</div>
       	</section>
@@ -101,14 +89,33 @@
                 <div class="media">
                     <img src="/images/logo-countrywide.png" class="mr-3" alt="Countrywide logo" />
                     <div class="media-body">
-                        <h5 class="mt-0 text-dark">Countrywide property services group</h5>
+                        <h3 class="mb-3 text-dark">Countrywide property services group</h3>
                         <p>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            Working on the company's website replacement project (WRP) I worked within a dedicated team developing a custom-built Front End framework based on BEM methodology.
+                            <br />
+                            The project aim was to rebuild the company's 60+ brand websites, using Episerver as the CMS, based upon a single, customizable codebase.
+                            <br />
+                            We took a modular approach to build up a library of reusable components which was then used to build up the site pages.
+                        </p>
+                        <p>
+                            <strong>Key skills: </strong> HTML / SCSS / BEM / AngularJs / Episerver CMS / Visual Studio
                         </p>
                     </div>
                 </div>
-
-                
+                <div class="media">
+                    <img src="/images/logo-biworldwide.jpg" class="mr-3" alt="BI Worldwide logo" />
+                    <div class="media-body">
+                        <h3 class="mb-3 text-dark">BI Worldwide</h3>
+                        <p>
+                            BI Worldwide partner with some of the biggest UK companies and provide staff engagement solutions and services.
+                            <br />
+                            I worked on a variety of projects within the automotive industry. The process would be to work from design files (Photoshop) produced by the Creative department and then produce responsive, semantic HTML and SASS code. Projects were a mix of .NET and Angular, using Bootstrap as the front end framework.
+                        </p>
+                        <p>
+                            <strong>Key skills: </strong> HTML / SCSS / BEM / Angular-UI / Visual Studio 2017 / Visual Studio
+                        </p>
+                    </div>
+                </div>
       		</div>
       	</section>
 
@@ -122,7 +129,7 @@
                         <div class="card card-flip h-100">
                             <div class="card-front bg-white">
                                 <div class="card-body">
-                                    <img src="/images/logo-biworldwide.jpg" alt="Heath Wallace logo" />
+                                    <img src="/images/logo-biworldwide.jpg" alt="BI Worldwide logo" />
                                 </div>
                             </div>
                             <div class="card-back bg-light">
@@ -244,13 +251,40 @@
 
       	<section class="section contact" id="section4">
             <div class="container">
-                <h1>Contact</h1>
                 <div class="row">
-                    <div class="col-md-9">
-                        Conta
+                    <div class="col-md-5">
+                        <h1 class="text-light">Contact</h1>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                A:
+                            </div>
+                            <div class="col-sm-11 text-light">
+                                7 Marsh End,<br />
+                                Tetsworth<br />
+                                Thame<br />
+                                Oxfordshire<br />
+                                OX9 7AU
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                E:
+                            </div>
+                            <div class="col-sm-11 text-light">
+                                <a href="mailto:jon@bpm-web-design.co.uk?subject=Contract website enquiry" class="text-light">jon@bpm-web-design.co.uk</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                T:
+                            </div>
+                            <div class="col-sm-11 text-light">
+                                07946 548 583
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-
+                    <div class="col-md-7">
+                        <div id="map"></div>
                     </div>
                 </div>
             </div>
@@ -273,7 +307,9 @@
     <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
+
     <script src="scripts/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd5tQ29jsBW8q8kuqnxIR9CZO9c7PXrOg&callback=initMap"></script>
     <script src="scripts/ekko-lightbox.js"></script>
     <script src="scripts/fullpage.js"></script>
     <!-- endbuild -->

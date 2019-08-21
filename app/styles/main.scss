@@ -96,6 +96,24 @@ previous-history {
     }
 }
 
+// recent-history
+.recent-history {
+  .media {
+    img {
+      max-width: 200px;
+    }
+  }
+}
+
+// Map
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+
+}
+
+
 // Images
 .image-wrapper {
     margin-bottom: $s_md;
