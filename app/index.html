@@ -23,7 +23,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <a class="navbar-brand" href="https://bigplane.co.uk" title="Go to the bpm web design limited website to see some other clients">
+            <a class="navbar-brand" href="https://bpm-web-design.co.uk" title="Go to the bpm web design limited website to see some other clients">
                 <img src="images/logo.png" class="logo" />
             </a>
         </nav>
@@ -72,7 +72,9 @@
                             <li>Knockout</li>
                             <li>PHP</li>
                         </ul>
-                        <p><a href="pdf/Jon-White-CV-current.pdf" title="Download a copy of my CV" target="_blank"><i class="far fa-file-pdf"></i> <strong>Download a PDF of my current CV</strong></a></p>
+                        <p  class="link-cv">
+                            <a href="pdf/Jon-White-CV-current.pdf" class="shadow" title="Download a copy of my CV" target="_blank"><i class="far fa-file-pdf"></i> <strong>Download a PDF of my current CV</strong></a>
+                        </p>
                     </div>
                 </div>
       		</div>
@@ -83,7 +85,7 @@
             <div class="container">
                 <h2 class="text-light">Recent History</h2>
                 <div class="media">
-                    <img src="/images/logo-countrywide.png" class="mr-3" alt="Countrywide logo" />
+                    <img src="/images/logo-countrywide.jpg" class="mr-3 shadow" alt="Countrywide logo" />
                     <div class="media-body">
                         <h3 class="mb-3 text-light">Countrywide property services group</h3>
                         <p>
@@ -99,7 +101,7 @@
                     </div>
                 </div>
                 <div class="media">
-                    <img src="/images/logo-biworldwide.jpg" class="mr-3" alt="BI Worldwide logo" />
+                    <img src="/images/logo-biworldwide.jpg" class="mr-3 shadow" alt="BI Worldwide logo" />
                     <div class="media-body">
                         <h3 class="mb-3 text-light">BI Worldwide</h3>
                         <p>
@@ -123,7 +125,7 @@
 
                 <div class="row clients">
                     <div class="col-sm-3">
-                        <div class="card card-flip h-100">
+                        <div class="card card-flip h-100 shadow">
                             <div class="card-front bg-white">
                                 <div class="card-body">
                                     <img src="/images/logo-biworldwide.jpg" alt="BI Worldwide logo" />
@@ -138,7 +140,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="card card-flip h-100">
+                        <div class="card card-flip h-100 shadow">
                             <div class="card-front bg-white">
                                 <div class="card-body">
                                     <img src="/images/logo-argus-media.png" alt="Argus Media logo" />
@@ -153,7 +155,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="card card-flip h-100">
+                        <div class="card card-flip h-100 shadow">
                             <div class="card-front">
                                 <div class="card-body bg-white">
                                     <img src="/images/logo-hsbc.png" alt="HSBC logo" />
@@ -168,7 +170,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="card card-flip h-100">
+                        <div class="card card-flip h-100 shadow">
                             <div class="card-front bg-evalue">
                                 <div class="card-body">
                                     <img src="/images/logo-evalue.png" alt="eValue logo" />
@@ -183,7 +185,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="card card-flip h-100">
+                        <div class="card card-flip h-100 shadow">
                             <div class="card-front bg-white">
                                 <div class="card-body">
                                     <img src="/images/logo-heath-wallace.png" alt="Heath Wallace logo" />
@@ -198,7 +200,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="card card-flip h-100">
+                        <div class="card card-flip h-100 shadow">
                             <div class="card-front bg-white">
                                 <div class="card-body">
                                     <img src="/images/logo-immediate.png" alt="Immediate Media logo" />
@@ -213,7 +215,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="card card-flip h-100">
+                        <div class="card card-flip h-100 shadow">
                             <div class="card-front">
                                 <div class="card-body bg-monitise">
                                     <img src="/images/logo-monitise.png" alt="Monitise logo" />
@@ -228,7 +230,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <div class="card card-flip h-100">
+                        <div class="card card-flip h-100 shadow">
                             <div class="card-front">
                                 <div class="card-body bg-white">
                                     <img src="/images/logo-jessops.png" alt="Jessops logo" />
@@ -249,9 +251,10 @@
       	<section class="section contact" id="section4">
             <a href="#Welcome" class="link-up"></a>
             <div class="container">
+                <h2 class="text-light">Contact</h2>
                 <div class="row">
                     <div class="col-md-5">
-                        <h1 class="text-light">Contact</h1>
+                        
                         <div class="row">
                             <div class="col-sm-2 text-sm-center">
                                 <i class="fas fa-map-marker-alt text-secondary"></i>
@@ -282,7 +285,7 @@
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <div id="map"></div>
+                        <div class="shadow" id="map"></div>
                     </div>
                 </div>
             </div>
@@ -307,43 +310,24 @@
     <!-- build:js scripts/main.js -->
 
     <script src="scripts/main.js"></script>
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd5tQ29jsBW8q8kuqnxIR9CZO9c7PXrOg&callback=initMap"></script> -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4FewAeS1zW1noxmh9goEdR2lrVBARW5E&callback=initMap"
-  type="text/javascript"></script>
     <script src="scripts/ekko-lightbox.js"></script>
     <script src="scripts/fullpage.js"></script>
     <!-- endbuild -->
     <script>
-    jQuery(document).ready(function($) {
+        jQuery(document).ready(function($) {
 
-        // $(".fp-controlArrow").click(function(){
-        //     $(".fp-controlArrow").addClass("intro");
-        // });
+            // $(".fp-controlArrow").click(function(){
+            //     $(".fp-controlArrow").addClass("intro");
+            // });
 
 
-        // $('a[data-rel^=lightcase]').lightcase({
-        //     swipe: true,
-        //     transitionIn: 'scrollBottom',
-        //     maxWidth: '1366px',
-        // });
-
-        $(document).on('click', '.enlarge', function(){
-            $.fn.fullpage.setAllowScrolling(false);
+            // $('a[data-rel^=lightcase]').lightcase({
+            //     swipe: true,
+            //     transitionIn: 'scrollBottom',
+            //     maxWidth: '1366px',
+            // });
         });
-
-        $(document).on('click', '.turnScrollOn', function(){
-            $.fn.fullpage.setAllowScrolling(true);
-        });
-
-        // ekko lightbox
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox({
-                alwaysShowClose: true,
-            });
-        });
-    });
-
     </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4FewAeS1zW1noxmh9goEdR2lrVBARW5E&callback=initMap"></script>
   </body>
 </html>

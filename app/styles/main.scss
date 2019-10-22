@@ -80,6 +80,19 @@ previous-history {
   
 }
 
+.link-cv {
+  text-align: right;
+
+  a {
+      padding: 1rem;
+      background-color: $white;
+  }
+
+  .far {
+    font-size: 2rem;
+  }
+}
+
 
 // Contact block
 .contact {
