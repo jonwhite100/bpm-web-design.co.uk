@@ -4,17 +4,22 @@ p {
     line-height: 1.4;
     margin-bottom: 1.8rem;
 
-    @include media-breakpoint-up(sm) {
-        font-size: $font-size-base * 1.25;
-    }
-
     .about & {
         color: $gray-700;
+
+        @include media-breakpoint-down(md) {
+            font-size: $font-size-base * 1.4;
+        }
     }
 
     .recent-history &,
     .previous-history & {
         color: $white;
+
+        @include media-breakpoint-down(md) {
+            font-size: $font-size-base * 1.4;
+        }
+
     }
 }
 

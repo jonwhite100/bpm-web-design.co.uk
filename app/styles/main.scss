@@ -72,12 +72,26 @@ body {
 
 
 .recent-history {
-  
+  img {
+  width: 100%;
+  }
 }
 
 // Previous History block
-previous-history {
-  
+.previous-history {
+  .col-sm-3:last-of-type {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 50px;
+    }
+  }
+
+  .card {
+    min-height: 300px;
+
+    @include media-breakpoint-up(md) {
+      min-height: auto;
+    }
+  }
 }
 
 .link-cv {
